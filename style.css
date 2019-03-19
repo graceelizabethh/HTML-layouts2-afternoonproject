@@ -1,0 +1,48 @@
+body{
+    height:300vh;
+}
+.body-div{
+    background-image: url("coffeegrounds.jpg");
+    background-size: cover;
+    
+}
+.header-text{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-uppertext{
+    color: peru;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: bold;
+}
+.header-lowertext{
+    color: white;
+    font-family: Raleway;
+    font-size: 75px;;
+}
+nav{
+    height:85px;
+    width:100%;
+    background: rgba(47,23,15,.9);
+    opacity: 70%;
+}
+.nav-tabs{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+}
+.coffee-bitch{
+    height: 555px;
+    width: 832px;
+    background-image: url("coffeegirl.jpg");
+    background-size: cover;
+    padding-left: 90px;
+}
+
+
